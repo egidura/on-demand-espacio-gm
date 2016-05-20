@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>iProfesional Espacio GM</title>
+<link href="css/styles.css" rel="stylesheet"/>
+<link href="css/800.css" rel="stylesheet"/>
+<link href="css/460.css" rel="stylesheet"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<script type="text/javascript" language="JavaScript">
+	<!--
+	var sitio_id = "36c7";
+	var eplrnd = (new String(Math.random())).substring(2,8) + (((new Date()).getTime()) & 262143);
+	var sw = (self.innerWidth ? self.innerWidth : (document.documentElement && document.documentElement.clientWidth) ? document.documentElement.clientWidth : document.body ? document.body.clientWidth : "");
+	var sh = (self.innerHeight ? self.innerHeight : (document.documentElement && document.documentElement.clientHeight) ? document.documentElement.clientHeight : document.body ? document.body.clientHeight : "");
+	var wh = (sw && sh) ? (sw.toString(16) + "x" + sh.toString(16)) : "";
+	var cs = document.charset || document.characterSet;
+	function eplAD(espacio_id) {
+		if (espacio_id) {
+			var ad = '<scri' + 'pt language="JavaScript" type="text/javascript" src=' + schemeLocal(this) + '://ads.e-planning.net/'+ 'eb/3/' + sitio_id + '/' + espacio_id + '?o=j&rnd=' + eplrnd + '&crs=' + cs + (wh ? ('&n=' + wh) : '') + '"></scri' + 'pt>';
+			document.write(ad);
+		}
+	}
+
+		function schemeLocal(elem) {
+			if (document.location.protocol) {
+			protocol = document.location.protocol;
+		} else {
+			protocol = window.top.location.protocol;
+		}
+		if (protocol) {
+			if (protocol.indexOf("https") !== -1) {
+				return "https";
+			} else {
+			return "http";
+		}
+	}
+}
+//-->
+</script>
+</head>
+
+<body>
+<div class="tripleimpacto">
+  <div class="wrapper">
+    <div class="lateralizq"><script type="text/javascript">eplAD("96d42fa3947a99e8");</script></div>
+    <div class="lateralder"><script type="text/javascript">eplAD("2068a69cb431bd2b");</script></div>
+  </div>
+</div>
+<div class="mainwrapper">
+	<div class="menutopchico" id="menutopchico">    
+        <div class="wrapper">
+          <div class="colizq">
+          <div class="botonsecciones" id="botonabrir" onClick="desplegarMenu()">
+				<div class="texto">SECCIONES</div>
+				<div class="icono"></div>
+			</div>
+          	<div class="botonsecciones" id="botoncerrar" onClick="cerrarMenu()">
+				<div class="texto">SECCIONES</div>
+                <div class="cerrar"></div>
+			</div>
+			<div class="logo"><a href="http://www.iprofesional.com" target="_blank"></a></div>
+   	  		<div class="tituloespacio">Espacio GM</div>
+		  </div>
+          <div class="colder">          	
+            <div class="botonregistro"><a href="http://www.iprofesional.com/index.php?p=registracion" target="_blank">REGISTRARME</a></div>
+            <div class="botonregistro"><a href="http://www.iprofesional.com/templates/bloques/login-form.php" target="_blank">INGRESAR</a></div>
+            <div class="botonbuscar"><a href="http://www.iprofesional.com/index.php?p=buscadorProfesional&accion=Buscar&porpaginaN=10&texto=&orden=noticia_publicacion+DESC&fechamax=2016-4-29&fechamin=2012-4-29&donde=noticia" target="_blank"></a></div>
+          </div>
+        </div>
+  </div>
+    <div class="menusecciones" id="menusecciones">
+      <div class="wrapper">
+        <div class="listasuperior">
+          <ul>
+            <li><a href="http://www.iprofesional.com/economia" target="_blank">ECONOM&Iacute;A</a></li>
+            <li><a href="http://www.iprofesional.com/finanzas" target="_blank">FINANZAS</a></li>
+            <li><a href="http://www.iprofesional.com/impuestos" target="_blank">IMPUESTOS</a></li>
+            <li><a href="http://www.iprofesional.com/legales" target="_blank">LEGALES</a></li>
+            <li><a href="http://www.iprofesional.com/negocios" target="_blank">NEGOCIOS</a></li>
+            <li><a href="http://www.iprofesional.com/tecnologia" target="_blank">TECNOLOG&Iacute;A</a></li>
+            <li><a href="http://www.iprofesional.com/comex" target="_blank">COMEX</a></li>
+            <li><a href="http://www.iprofesional.com/management" target="_blank">MANAGEMENT</a></li>
+            <li class="ultimo"><a href="http://www.iprofesional.com/marketing">MARKETING</a></li>            
+          </ul>
+        </div>
+        <div class="listainferior">
+          <ul>
+           <li class="ademas">ADEM&Aacute;S</li> 
+           <li class="arrow_box"></li>
+           <li><a href="http://vinosybodegas.iprofesional.com" target="_blank">Vinos &amp; Bodegas</a></li>
+           <li><a href="http://autosipro.iprofesional.com" target="_blank">Autos iPro</a></li>
+           <li><a href="http://www.iprofesional.com/subscribe" target="_blank">Suscripci&oacute;n</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+  <script>
+	function desplegarMenu() {
+		document.getElementById("menusecciones").style.display = "block";
+		document.getElementById("botoncerrar").style.opacity = "1";
+		document.getElementById("botonabrir").style.opacity = "0";	
+		setTimeout(function(){
+			document.getElementById("botonabrir").style.display = "none";
+			document.getElementById("menusecciones").style.opacity = "1";
+			document.getElementById("cerrarmenu").style.display = "block";
+		}, 200);
+	}
+	
+	function cerrarMenu() {
+		document.getElementById("botonabrir").style.display = "block";
+		document.getElementById("menusecciones").style.opacity = "0";
+		setTimeout(function(){
+			document.getElementById("botonabrir").style.opacity = "1";
+			document.getElementById("menusecciones").style.display = "none";
+			document.getElementById("botoncerrar").style.opacity = "0";
+		}, 200);
+	}
+	</script>
+    
+  <div class="bloquenotas bloquebannerpremium">
+        <div class="wrapper">
+        <div class="bannerpremium">
+			<script type="text/javascript">eplAD("4d7b81aed5954a50");</script>
+        </div>      
+        </div>
+  </div>
+    <div class="bloquenotas">
+       <div class="wrapper">
+        	<div class="lasnotas">
+                <div class="colizq">                
+                  <div class="lanota">
+                    <div class="contenedorimagen">
+                      <div class="compartir">
+                        <div class="icono"></div>
+                        <div class="fb"><a href="#"></a></div>
+                        <div class="tw"><a href="#"></a></div>
+                      </div>
+                      <div class="imagen"><a href="http://www.iprofesional.com/notas/232037-Chevrolet-Cruze-II-10-datos-claves-para-conocer-el-nuevo-modelo"><img src="http://719ec77057a57996613a-9a5081423686babcde0c8e2e3662dda4.r0.cf1.rackcdn.com/adjuntos/jpg/2016/05/431195.jpg" width="630" height="460"></a></div>
+                    </div>
+                    <div class="textos">
+                      <div class="chapa">
+                          <div class="texto">Actualidad</div>
+                          <div class="triangulo"></div>
+                        </div>
+                        <div class="volanta">ESPACIO GM</div>
+                        <div class="titulo">
+                          <h2><a href="http://www.iprofesional.com/notas/232037-Chevrolet-Cruze-II-10-datos-claves-para-conocer-el-nuevo-modelo">Chevrolet Cruze II: 10 datos claves para conocer el nuevo modelo</a></h2>
+                        </div>
+                        <div class="bajada">
+                          <h3><a href="http://www.iprofesional.com/notas/232037-Chevrolet-Cruze-II-10-datos-claves-para-conocer-el-nuevo-modelo"><strong>06-05-2016</strong> Nos subimos a la segunda generación del sedán mediano y manejamos un trayecto entre Villa la Angostura y Bariloche. Su innovación llegó no solo por diseño, sino también por confort interior y tecnología. Hoy, es el auto más moderno fabricado en el país</a></h3>
+                        </div>                        
+                    </div>
+                  </div>
+                
+                  <div class="lanota">
+                    <div class="contenedorimagen">
+                      <div class="compartir">
+                        <div class="icono"></div>
+                        <div class="fb"><a href="#"></a></div>
+                        <div class="tw"><a href="#"></a></div>
+                      </div>
+                      <div class="imagen"><a href="http://www.iprofesional.com/notas/232022-Chevrolet-Cruze-la-pieza-que-faltaba-para-recuperar-el-aspiracional-de-marca"><img src="http://719ec77057a57996613a-9a5081423686babcde0c8e2e3662dda4.r0.cf1.rackcdn.com/adjuntos/jpg/2016/05/431176.jpg" width="630" height="460"></a></div>
+                    </div>
+                    <div class="textos">
+                      <div class="chapa">
+                          <div class="texto">MARKETING</div>
+                        </div>
+                      <div class="volanta">ESPACIO GM</div>
+                        <div class="titulo">
+                          <h2><a href="http://www.iprofesional.com/notas/232022-Chevrolet-Cruze-la-pieza-que-faltaba-para-recuperar-el-aspiracional-de-marca">Chevrolet Cruze, la pieza que faltaba para recuperar el "aspiracional de marca"</a></h2>
+                        </div>
+                        <div class="bajada">
+                          <h3><a href="http://www.iprofesional.com/notas/232022-Chevrolet-Cruze-la-pieza-que-faltaba-para-recuperar-el-aspiracional-de-marca"><strong>06-05-2016</strong> Es el lanzamiento del a&ntilde;o, porque se trata de un auto global y por primera vez se fabricar&aacute; en la Argentina. Es superior en ingenier&iacute;a y tecnolog&iacute;a. Para presentarlo, la marca eligi&oacute; un concepto muy particular: "meritocracia". Los ejes de comunicaci&oacute;n del auto del a&ntilde;o</a></h3>
+                        </div>                        
+                    </div>
+                  </div>
+                  
+                  <div class="lanota">
+                    <div class="contenedorimagen">
+                      <div class="compartir">
+                        <div class="icono"></div>
+                        <div class="fb"><a href="#"></a></div>
+                        <div class="tw"><a href="#"></a></div>
+                      </div>
+                      <div class="imagen"><a href="http://www.iprofesional.com/notas/231831-Chevrolet-a-punto-de-revelar-en-Argentina-el-proyecto-ms-importante-de-toda-su-historia-para-la-regin"><img src="http://719ec77057a57996613a-9a5081423686babcde0c8e2e3662dda4.r0.cf1.rackcdn.com/adjuntos/jpg/2016/05/431075.jpg" width="630" height="460"></a></div>
+                    </div>
+                    <div class="textos">
+                      <div class="chapa">
+                          <div class="texto">NEGOCIOS</div>
+                        </div>
+                      <div class="volanta">ESPACIO GM</div>
+                        <div class="titulo">
+                          <h2><a href="http://www.iprofesional.com/notas/231831-Chevrolet-a-punto-de-revelar-en-Argentina-el-proyecto-ms-importante-de-toda-su-historia-para-la-regin">Chevrolet revel&oacute; en Argentina el proyecto m&aacute;s importante de su historia para la regi&oacute;n</a></h2>
+                        </div>
+                        <div class="bajada">
+                          <h3><a href="http://www.iprofesional.com/notas/231831-Chevrolet-a-punto-de-revelar-en-Argentina-el-proyecto-ms-importante-de-toda-su-historia-para-la-regin"><strong>04-05-2016</strong> La compa&ntilde;&iacute;a, tras una inversi&oacute;n de u$s740 millones, present&oacute; el nuevo Cruze, el primer modelo global de la marca que se produce en el pa&iacute;s. Es el paso m&aacute;s trascendente que da la automotriz y representa una se&ntilde;al de mucho peso pol&iacute;tico. Detalles de un lanzamiento clave para la industria</a></h3>
+                        </div>                        
+                    </div>
+                  </div>
+                </div>
+                  
+                <div class="colcentro">
+                  <div class="lanota">
+                    <div class="contenedorimagen">
+                      <div class="compartir">
+                        <div class="icono"></div>
+                        <div class="fb"><a href="#"></a></div>
+                        <div class="tw"><a href="#"></a></div>
+                      </div>
+                      <div class="imagen"><a href="http://www.iprofesional.com/notas/232020-Cmo-es-un-viaje-en-el-nuevo-auto-ultraconectado-de-Chevrolet-en-la-Argentina"><img src="http://719ec77057a57996613a-9a5081423686babcde0c8e2e3662dda4.r0.cf1.rackcdn.com/adjuntos/jpg/2016/05/431145.jpg" width="630" height="460"></a></div>
+                    </div>
+                    <div class="textos">
+                      <div class="chapa">
+                          <div class="texto">ACTUALIDAD</div>
+                          <div class="triangulo"></div>
+                        </div>
+                        <div class="volanta">ESPACIO GM</div>
+                        <div class="titulo">
+                          <h2><a href="http://www.iprofesional.com/notas/232020-Cmo-es-un-viaje-en-el-nuevo-auto-ultraconectado-de-Chevrolet-en-la-Argentina">¿C&oacute;mo es un viaje en el nuevo auto “ultraconectado” de Chevrolet en la Argentina?</a></h2>
+                        </div>
+                        <div class="bajada">
+                          <h3><a href="http://www.iprofesional.com/notas/232020-Cmo-es-un-viaje-en-el-nuevo-auto-ultraconectado-de-Chevrolet-en-la-Argentina"><strong>06-05-2016 </strong> iProfesional particip&oacute; en R&iacute;o Negro y Neuqu&eacute;n en un test drive del Nuevo Cruze, el modelo fabricado en la planta de General Motors en la provincia de Santa Fe, que incluye una plataforma de servicios remotos que mejoran la experiencia de conducci&oacute;n</a></h3>
+                        </div>                        
+                    </div>
+                  </div> 
+                  
+                  <div class="lanota">
+                    <div class="contenedorimagen">
+                      <div class="compartir">
+                        <div class="icono"></div>
+                        <div class="fb"><a href="#"></a></div>
+                        <div class="tw"><a href="#"></a></div>
+                      </div>
+                      <div class="imagen"><a href="http://www.iprofesional.com/notas/231947-Chevrolet-lanz-el-primer-automvil-ultraconectado-del-mercado-argentino"><img src="http://719ec77057a57996613a-9a5081423686babcde0c8e2e3662dda4.r0.cf1.rackcdn.com/adjuntos/jpg/2016/05/431148.jpg" width="630" height="460"></a></div>
+                    </div>
+                    <div class="textos">
+                      <div class="chapa">
+                          <div class="texto">TECNOLOG&Iacute;A</div>
+                        </div>
+                      <div class="volanta">ESPACIO GM</div>
+                        <div class="titulo">
+                          <h2><a href="http://www.iprofesional.com/notas/231947-Chevrolet-lanz-el-primer-automvil-ultraconectado-del-mercado-argentino">Chevrolet lanz&oacute; el primer autom&oacute;vil "ultraconectado" del mercado argentino</a></h2>
+                        </div>
+                        <div class="bajada">
+                          <h3><a href="http://www.iprofesional.com/notas/231947-Chevrolet-lanz-el-primer-automvil-ultraconectado-del-mercado-argentino"><strong>06-05-2016</strong> Fabricado en la planta de GM en la ciudad santafesina de Alvear, el nuevo modelo es un fiel exponente de la Internet de las cosas, basada en la comunicaci&oacute;n entre m&aacute;quinas sin intervenci&oacute;n a humana. Ofrece una amplia gama de servicios para el conductor</a></h3>
+                        </div>                        
+                    </div>
+                  </div>
+                  
+                  <div class="lanota">
+                    <div class="contenedorimagen">
+                      <div class="compartir">
+                        <div class="icono"></div>
+                        <div class="fb"><a href="#"></a></div>
+                        <div class="tw"><a href="#"></a></div>
+                      </div>
+                      <div class="imagen"><a href="http://www.iprofesional.com/notas/231900-Chevolet-Cruze-asi-es-el-nuevo-modelo-que-desde-ahora-se-comienza-a-fabricar-en-la-Argentina-para-el-mundo"><img src="http://719ec77057a57996613a-9a5081423686babcde0c8e2e3662dda4.r0.cf1.rackcdn.com/adjuntos/jpg/2016/05/431137.jpg" width="630" height="460"></a></div>
+                    </div>
+                    <div class="textos">
+                      <div class="chapa">
+                          <div class="texto">ACTUALIDAD</div>
+                          <div class="triangulo"></div>
+                        </div>
+                        <div class="volanta">ESPACIO GM</div>
+                        <div class="titulo">
+                          <h2><a href="http://www.iprofesional.com/notas/231900-Chevolet-Cruze-asi-es-el-nuevo-modelo-que-desde-ahora-se-comienza-a-fabricar-en-la-Argentina-para-el-mundo">Chevrolet Cruze: as&iacute; es el nuevo modelo que se comienza a fabricar en la Argentina para el mundo</a></h2>
+                        </div>
+                        <div class="bajada">
+                          <h3><a href="http://www.iprofesional.com/notas/231900-Chevolet-Cruze-asi-es-el-nuevo-modelo-que-desde-ahora-se-comienza-a-fabricar-en-la-Argentina-para-el-mundo"><strong>05-05-2016</strong> Fin del misterio. Tras el anuncio de inversi&oacute;n de u$s740 millones, la automotriz present&oacute; su modelo global. Es un auto pensado para batallar con otros medianos del mercado, uno de los segmentos m&aacute;s competitivos. Precio y tecnolog&iacute;a, dos herramientas para seducir a potenciales clientes. Los detalles</a></h3>
+                        </div>                        
+                    </div>
+                  </div>
+                           
+                </div>
+                  
+                <div class="colder">
+                  <div class="sidebar">
+                    <div class="suscribite">
+                      <div class="suscripcion">
+                      	<div class="titulo">SUSCRIBITE</div>
+                      	<div class="bajada">Sumate a los profesionales que ya reciben nuestro e-mail diario con el an&aacute;lisis de la noticia destacada.</div>
+                        <div class="boton"><a href="http://www.iprofesional.com/subscribe" target="_blank">RECIBIR NOTICIAS</a></div>
+                      </div>
+                      <div class="redes">
+                        <div class="titulo">Seguinos en redes sociales</div>
+                        <div class="redesnota">
+                          <ul>
+                              <li class="fb">
+                              <a href="https://www.facebook.com/iProfesionalcom" target="_blank"></a>
+                              </li>
+                              
+                              <li class="tw">
+                              <a href="https://twitter.com/iProfesional" target="_blank"></a>
+                              </li>
+                              
+                              <li class="gp">
+                              <a href="https://plus.google.com/+iProfesional" target="_blank"></a>
+                              </li>
+                              
+                              <li class="in">
+                              <a href="https://www.linkedin.com/company/963416?trk=tyah&trkInfo=tas%3Aiprofesional.com" target="_blank"></a>
+                              </li>
+                              
+                            </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="banner300x">
+                   	  <script type="text/javascript">eplAD("81e1b2390e95dc6c");</script>
+                    </div>
+                  </div>
+                  <div class="lanota lanotasidebar">
+                    <div class="contenedorimagen">
+                      <div class="compartir">
+                        <div class="icono"></div>
+                        <div class="fb"><a href="#"></a></div>
+                        <div class="tw"><a href="#"></a></div>
+                      </div>
+                      <div class="imagen"><a href="http://www.iprofesional.com/notas/231950-El-nuevo-Cruze-de-Chevrolet-viene-con-un-acompaante-virtual-para-el-conductor"><img src="http://719ec77057a57996613a-9a5081423686babcde0c8e2e3662dda4.r0.cf1.rackcdn.com/adjuntos/jpg/2016/05/431141.jpg" width="630" height="460"></a></div>
+                    </div>
+                    <div class="textos">
+                      <div class="chapa">
+                          <div class="texto">TECNOLOG&Iacute;A</div>
+                          <div class="triangulo"></div>
+                        </div>
+                        <div class="volanta">ESPACIO GM</div>
+                        <div class="titulo">
+                          <h2><a href="http://www.iprofesional.com/notas/231950-El-nuevo-Cruze-de-Chevrolet-viene-con-un-acompaante-virtual-para-el-conductor">El nuevo Cruze de Chevrolet viene con un “acompa&ntilde;ante virtual” para el conductor</a></h2>
+                        </div>
+                        <div class="bajada">
+                          <h3><a href="http://www.iprofesional.com/notas/231950-El-nuevo-Cruze-de-Chevrolet-viene-con-un-acompaante-virtual-para-el-conductor"><strong>05-05-2016</strong> Se trata de un servicio exclusivo de Chevrolet, que integra la m&aacute;s reciente tecnolog&iacute;a vehicular con el uso de la red celular, ofreciendo servicios de seguridad, emergencia, conectividad, navegaci&oacute;n y conserjer&iacute;a a trav&eacute;s del veh&iacute;culo de esta marca</a></h3>
+                        </div>                        
+                    </div>
+                  </div>
+                  
+                  <div class="lanota lanotasidebar2" style="display:none">
+                    <div class="contenedorimagen">
+                      <div class="compartir">
+                        <div class="icono"></div>
+                        <div class="fb"><a href="#"></a></div>
+                        <div class="tw"><a href="#"></a></div>
+                      </div>
+                      <div class="imagen"><a href="#"><img src="http://autosipro.iprofesional.com/wp-content/uploads/sites/12/2016/04/Ranger-2.jpg" width="630" height="460"></a></div>
+                    </div>
+                    <div class="textos">
+                      <div class="chapa">
+                          <div class="texto">nueva ranger</div>
+                          <div class="triangulo"></div>
+                        </div>
+                        <div class="volanta">lanzamiento</div>
+                        <div class="titulo">
+                          <h2><a href="#">Ford arranca la presentaci&oacute;n oficial de la nueva Ranger</a></h2>
+                        </div>
+                        <div class="bajada">
+                          <h3><a href="#"><strong>03.11.15</strong> Es el lanzamiento oficial de la pick up que se fabrica en Pacheco. Llega con cambios por dentro y por fuera. Los detalles</a></h3>
+                        </div>                        
+                    </div>
+                  </div>
+                  
+                </div>          
+         </div>
+    </div>
+  </div>
+  
+  <div class="paginador" style="display:none;">
+  	<div class="wrapper">
+    <ul>
+    	<li><a href="#">&laquo; Anterior</a></li>
+        <li><a href="#">1</a></li>
+        <li><a href="#">2</a></li>
+        <li><a href="#">3</a></li>
+        <li><a href="#">4</a></li>
+        <li><a href="#">...</a></li>
+        <li><a href="#">14</a></li>
+        <li><a href="#">Siguiente &raquo;</a></li>
+    </ul>
+    </div>
+  </div>
+  
+  <div class="footer">
+    <div class="wrapper">
+    	<div class="seccionespie">
+            <div class="colizq">
+              <ul>
+                <li class="titlista"><strong>SECCIONES</strong></li>
+                <li><a href="http://www.iprofesional.com" target="_blank">Home</a></li>
+                <li><a href="http://www.iprofesional.com/economia" target="_blank">Econom&iacute;a</a></li>
+                <li><a href="http://www.iprofesional.com/finanzas" target="_blank">Finanzas</a></li>
+                <li><a href="http://www.iprofesional.com/impuestos" target="_blank">Impuestos</a></li>
+                <li><a href="http://www.iprofesional.com/legales" target="_blank">Legales</a></li>
+              </ul>
+            </div>
+            <div class="colder">
+              <ul>
+                <li class="titlista"></li>                
+                <li><a href="http://www.iprofesional.com/negocios" target="_blank">Negocios</a></li>
+                <li><a href="http://www.iprofesional.com/tecnologia" target="_blank">Tecnolog&iacute;a</a></li>
+                <li><a href="http://www.iprofesional.com/comex" target="_blank">Comex</a></li>
+                <li><a href="http://www.iprofesional.com/management" target="_blank">Management</a></li>
+                <li><a href="http://www.iprofesional.com/marketing" target="_blank">Marketing</a></li>
+              </ul>
+            </div>
+  		</div>
+        <div class="redespie">
+            <ul>
+              <li class="fb"><a href="https://www.facebook.com/iProfesionalcom" target="_blank"></a></li>
+              <li class="tw"><a href="https://twitter.com/iProfesional" target="_blank"></a></li>
+              <li class="gp"><a href="https://plus.google.com/+iProfesional" target="_blank"></a></li>
+              <li class="in"><a href="https://www.linkedin.com/grp/home?gid=750187" target="_blank"></a></li>
+            </ul>
+        </div>
+        <div class="legalespie">  
+              <p><a href="http://www.iprofesional.com/secciones/recomendar_portal.php" target="_blank">Recomendar</a> |  <a href="http://www.iprofesional.com/subscribe" target="_blank">Registrarse</a> |  <a href="http://www.iprofesional.com/rss.html" target="_blank">RSS</a> |  <a href="http://www.iprofesional.com/secciones/contactenos.php" target="_blank">Contacto</a> |  <a href="http://publicidad.iprofesional.com/" target="_blank">Publicidad</a></p>
+              <p>Copyright © 2016 Emprendimientos Corporativos S.A. Buenos Aires, Argentina. Todos los derechos reservados. </p>
+        </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
