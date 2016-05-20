@@ -279,6 +279,7 @@ h1, h2, h3{
 	color:#ff9900;
 	letter-spacing:-0.8px;
 	line-height:50px;
+	display:none;
 }
 .menusecciones{
 	width: 100%;
@@ -865,4 +866,23 @@ h1, h2, h3{
 	width:100%;
 	float:left;
 	text-align:center;
+}
+.chapaseccion{
+	float:left;
+	line-height:27px;
+	font-size:27px;
+	font-family: "WhitneyMedium", Arial;
+	letter-spacing:-1px;
+	opacity:0.99;
+}
+.chapaseccion .naranja{
+	color:#ff9900;
+	float:left;
+	padding-right:17px;
+	border-right: 1px solid #c1c5ca;
+}
+.chapaseccion .gris{
+	padding-left:15px;
+	color:#212831;
+	float:left;
 }

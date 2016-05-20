@@ -8,6 +8,17 @@
 <link href="css/460.css" rel="stylesheet"/>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-77645894-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
 <script type="text/javascript" language="JavaScript">
 	<!--
 	var sitio_id = "36c7";
@@ -39,10 +50,22 @@
 }
 //-->
 </script>
+
+
+<script>
+$(window).scroll(function() {  
+   if($(window).scrollTop() > 150 && $(window).scrollTop() < 700) {
+		$(".menutopchico .wrapper .tituloespacio").fadeIn("slow");
+	} 
+	if($(window).scrollTop() < 150) {
+		$(".menutopchico .wrapper .tituloespacio").fadeOut("slow");
+	}
+});
+</script>
 </head>
 
 <body>
-<div class="tripleimpacto">
+<div class="tripleimpacto" style="display:none;">
   <div class="wrapper">
     <div class="lateralizq"><script type="text/javascript">eplAD("96d42fa3947a99e8");</script></div>
     <div class="lateralder"><script type="text/javascript">eplAD("2068a69cb431bd2b");</script></div>
@@ -120,13 +143,21 @@
 	}
 	</script>
     
-  <div class="bloquenotas bloquebannerpremium">
+    <div class="bloquenotas bloquebannerpremium" style="display:none;">
         <div class="wrapper">
         <div class="bannerpremium">
 			<script type="text/javascript">eplAD("4d7b81aed5954a50");</script>
         </div>      
         </div>
-  </div>
+    </div>
+    <div class="bloquenotas">
+   	  <div class="wrapper">
+        	<div class="chapaseccion">
+              <div class="naranja">Contenido On Demand</div>
+              <div class="gris">Espacio GM</div>
+          </div>
+      </div>
+    </div>
     <div class="bloquenotas">
        <div class="wrapper">
         	<div class="lasnotas">
@@ -308,7 +339,7 @@
                         </div>
                       </div>
                     </div>
-                    <div class="banner300x">
+                    <div class="banner300x" style="display:none;">
                    	  <script type="text/javascript">eplAD("81e1b2390e95dc6c");</script>
                     </div>
                   </div>
